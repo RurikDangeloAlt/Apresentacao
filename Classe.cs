@@ -13,7 +13,7 @@ namespace Apresentacao
 
         public void ExibirValor()
         {
-            Console.WriteLine($"Valor armazenado: {valor}");
+            Console.WriteLine($"Valor test: {valor}");
         }
 
         public T ObterValor()
@@ -21,4 +21,9 @@ namespace Apresentacao
             return valor;
         }
     }
+}
+
+ public void Saudacao()
+{
+    Console.WriteLine("Olá! Resolvendo o conflito das duas features.");
 }
